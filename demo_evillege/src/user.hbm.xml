@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.socionet.server.User" table="HBM_User">
+	
+		<id name="id" type="int" column="id">
+		<generator class="increment"/>
+		</id>
+		
+		<property name="uname" column = "uname" type = "string"/>
+		<property name="upass" column = "upass" type = "string"/>
+		<property name="uemail" column = "uemail" type = "string"/>
+		<property name="umobileno" column = "umobileno" type = "string"/>
+	</class>
+</hibernate-mapping>
