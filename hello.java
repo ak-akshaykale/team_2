@@ -5,6 +5,8 @@ class A
 	   System.out.println("Hello akshay");
 	   System.out.println("Hello deepak");
 	  System.out.println("This is CDAC");
+	  System.out.println("This is fork request");
+	  
 	}
 	
 }
